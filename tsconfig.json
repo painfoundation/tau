@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "ES2023",
+		"lib": ["ES2023", "ES2023.Array", "ES2023.Collection"],
+		"outDir": "dist",
+		"declaration": true,
+		"declarationDir": "types",
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"include": [
+		"src/**/*"
+	]
+}
